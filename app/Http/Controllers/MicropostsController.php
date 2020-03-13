@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MicropostsConrtroller extends Controller{
+class MicropostsController extends Controller{
     public function index(){
         $data = [];
         if (\Auth::check()) {
