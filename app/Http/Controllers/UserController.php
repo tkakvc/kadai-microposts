@@ -62,4 +62,6 @@ public function show($id)
 
         return view('users.followers', $data);
     }
+    
+    
 }
