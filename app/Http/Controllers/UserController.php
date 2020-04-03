@@ -32,6 +32,7 @@ public function show($id)
         $data += $this->counts($user);
 
         return view('users.show', $data);
+        
     }
     public function followings($id)
     {
